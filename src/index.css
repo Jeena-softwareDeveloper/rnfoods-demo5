@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-meesho: #b70049;
+  --color-meesho-hover: #9f003f;
+  --color-meesho-bg: #ffecf1;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
